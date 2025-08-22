@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,8 +13,8 @@
         }
         
         body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff4757 0%, #c44569 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -48,13 +49,16 @@
         h1 {
             color: #333;
             margin-bottom: 10px;
-            font-size: 24px;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 1px;
         }
         
         .bio {
             color: #666;
             margin-bottom: 30px;
             font-size: 16px;
+            font-weight: 400;
         }
         
         .link-btn {
@@ -62,21 +66,22 @@
             width: 100%;
             padding: 15px;
             margin-bottom: 15px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #ff4757, #c44569);
             color: white;
             text-decoration: none;
             border-radius: 25px;
-            font-weight: bold;
+            font-weight: 600;
             transition: all 0.3s ease;
             border: none;
             cursor: pointer;
             font-size: 16px;
+            letter-spacing: 0.5px;
         }
         
         .link-btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            background: linear-gradient(45deg, #5a6fd8, #6a42a0);
+            background: linear-gradient(45deg, #ff3742, #b73e56);
         }
         
         .link-btn:last-child {
@@ -98,28 +103,16 @@
         </div>
         
         <!-- Personalize com seu nome -->
-        <h1>Seu Nome</h1>
-        <p class="bio">Sua descrição aqui 💫</p>
+        <h1><span style="color: #ff4757; font-weight: bold;">NEW</span><span style="color: #333; font-weight: bold;">MODAS</span></h1>
+        <p class="bio">Os melhores preços da região! 🔥💰✨</p>
         
         <!-- Seus links - PERSONALIZE AQUI -->
-        <a href="https://www.instagram.com/seuusuario" class="link-btn" target="_blank">
-            📱 Instagram Principal
+        <a href="mailto:seu@email.com" class="link-btn" target="_blank">
+            ✉️ Email
         </a>
         
         <a href="https://wa.me/5500000000000" class="link-btn" target="_blank">
             💬 WhatsApp
-        </a>
-        
-        <a href="https://www.youtube.com/seucanal" class="link-btn" target="_blank">
-            🎥 YouTube
-        </a>
-        
-        <a href="https://www.tiktok.com/@seuusuario" class="link-btn" target="_blank">
-            🎵 TikTok
-        </a>
-        
-        <a href="mailto:seu@email.com" class="link-btn" target="_blank">
-            ✉️ Email
         </a>
         
         <a href="https://seusite.com" class="link-btn" target="_blank">
